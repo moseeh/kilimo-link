@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: filter 0.3s;
+    background-image: url('/Images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    background-color: #f2f5f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.about {
+    color: #000;
+    border: #888;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.product {
+    color: #000;
+    border: #888;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.part {
+    color: #000;
+    border: #888;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.sign-up {
+    background-color: #0066ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.sign-up:hover {
+    background-color: #0056cc;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.features {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.feature-box {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feature-box h3 {
+    margin-bottom: 15px;
+}
+
+.feature-box p {
+    margin: 0;
+}
+
+.logo img {
+    width: 100px;
+    height: 35px; 
+}
